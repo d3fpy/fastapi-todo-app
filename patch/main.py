@@ -33,7 +33,7 @@ def read_tasks() -> list[TaskSchema]:
     return tasks
     
 
-@app.post("/tasks",status_code=status.HTTP_201_CREATED)
+@app.post("/tasks",status_code=status.HTTP_201_CREATED) # the project documentation requires 201, although it displays 200 by default.
 def create_task(payload: TaskCreateSchema) -> TaskSchema:
     new_task = TaskSchema(id=str(uuid4()), title=payload.title, completed=False)
 
