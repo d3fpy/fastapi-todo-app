@@ -2,5 +2,3 @@
 ### frontend url
 https://github.com/makedonsky-it/todo-app-frontend
 
-test-yolo badge
-yolo-test2
