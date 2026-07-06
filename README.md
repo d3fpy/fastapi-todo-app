@@ -12,4 +12,4 @@ npm run dev
 ```
 
 ## Frontend
-`link:` https://github.com/makedonsky-it/todo-app-frontend
+[click](https://github.com/makedonsky-it/todo-app-frontend)
