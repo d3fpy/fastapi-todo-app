@@ -7,7 +7,7 @@ https://github.com/makedonsky-it/todo-app-frontend
 uvicorn main:app --port 8080 --reload
 ```
 
-frontend run
+## Run
 ```
 npm install
 npm run dev
