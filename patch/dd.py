@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker,DeclarativeBase,Mapped,mapped_column
 
-DATABASE_URL = "postgresql+psycopg://postgres:admin@127.0.0.1:15432/postgres"
+DATABASE_URL = ""
 engine = create_engine(DATABASE_URL)
 Sessionlocal = sessionmaker(bind=engine)
 
